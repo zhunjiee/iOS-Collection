@@ -1,6 +1,6 @@
 //
-//  DrawerTests.m
-//  DrawerTests
+//  ZJStatusBarHUDDemoTests.m
+//  ZJStatusBarHUDDemoTests
 //
 //  Created by 侯宝伟 on 15/10/31.
 //  Copyright © 2015年 ZHUNJIEE. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface DrawerTests : XCTestCase
+@interface ZJStatusBarHUDDemoTests : XCTestCase
 
 @end
 
-@implementation DrawerTests
+@implementation ZJStatusBarHUDDemoTests
 
 - (void)setUp {
     [super setUp];

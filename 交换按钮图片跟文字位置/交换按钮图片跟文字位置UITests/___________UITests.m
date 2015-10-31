@@ -1,6 +1,6 @@
 //
-//  DrawerUITests.m
-//  DrawerUITests
+//  ___________UITests.m
+//  交换按钮图片跟文字位置UITests
 //
 //  Created by 侯宝伟 on 15/10/31.
 //  Copyright © 2015年 ZHUNJIEE. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface DrawerUITests : XCTestCase
+@interface ___________UITests : XCTestCase
 
 @end
 
-@implementation DrawerUITests
+@implementation ___________UITests
 
 - (void)setUp {
     [super setUp];

@@ -131,13 +131,13 @@
     
     
     UIView *rightView = [[UIView alloc] initWithFrame:self.view.bounds];
-    rightView.backgroundColor =[UIColor lightGrayColor];
+    rightView.backgroundColor =[UIColor blueColor];
     [self.view addSubview:rightView];
     _rightView = rightView;
     
     
     UIView *mainView = [[UIView alloc] initWithFrame:self.view.bounds];
-    mainView.backgroundColor = [UIColor blueColor];
+    mainView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:mainView];
     _mainView = mainView;
 }
