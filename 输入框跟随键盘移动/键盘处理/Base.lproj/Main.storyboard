@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knj-9o-8WU">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knj-9o-8WU" userLabel="输入框">
                                 <rect key="frame" x="0.0" y="560" width="600" height="40"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comment-bar-record" translatesAutoresizingMaskIntoConstraints="NO" id="xil-Y7-sp2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comment-bar-record" translatesAutoresizingMaskIntoConstraints="NO" id="xil-Y7-sp2" userLabel="背景图片">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                         <animations/>
                                         <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjP-dR-1pc" userLabel="vioceInputButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjP-dR-1pc" userLabel="声音输入按钮">
                                         <rect key="frame" x="10" y="5" width="29" height="29"/>
                                         <animations/>
                                         <constraints>
@@ -35,13 +35,13 @@
                                         <state key="normal" image="comment-bar-voice"/>
                                         <state key="highlighted" image="comment-bar-voice-click"/>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请在这里输入..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CGM-NP-BgJ">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请在这里输入..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CGM-NP-BgJ" userLabel="文本框">
                                         <rect key="frame" x="49" y="5" width="502" height="30"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYv-YB-I2K" userLabel="keyboardInputButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYv-YB-I2K" userLabel="键盘输入按钮">
                                         <rect key="frame" x="561" y="5" width="29" height="29"/>
                                         <animations/>
                                         <constraints>
