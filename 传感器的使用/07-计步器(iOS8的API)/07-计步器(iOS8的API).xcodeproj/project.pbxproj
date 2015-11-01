@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CFD59A1BE373D7002F50FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD5991BE373D7002F50FC /* main.m */; };
+		70CFD59D1BE373D7002F50FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD59C1BE373D7002F50FC /* AppDelegate.m */; };
+		70CFD5A01BE373D7002F50FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD59F1BE373D7002F50FC /* ViewController.m */; };
+		70CFD5A31BE373D7002F50FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD5A11BE373D7002F50FC /* Main.storyboard */; };
+		70CFD5A51BE373D7002F50FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD5A41BE373D7002F50FC /* Assets.xcassets */; };
+		70CFD5A81BE373D7002F50FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD5A61BE373D7002F50FC /* LaunchScreen.storyboard */; };
+		70CFD5B31BE373D8002F50FC /* _7_____iOS8_API_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD5B21BE373D8002F50FC /* _7_____iOS8_API_Tests.m */; };
+		70CFD5BE1BE373D8002F50FC /* _7_____iOS8_API_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD5BD1BE373D8002F50FC /* _7_____iOS8_API_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70CFD5AF1BE373D8002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD58D1BE373D7002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD5941BE373D7002F50FC;
+			remoteInfo = "07-计步器(iOS8的API)";
+		};
+		70CFD5BA1BE373D8002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD58D1BE373D7002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD5941BE373D7002F50FC;
+			remoteInfo = "07-计步器(iOS8的API)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70CFD5951BE373D7002F50FC /* 07-计步器(iOS8的API).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-计步器(iOS8的API).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD5991BE373D7002F50FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CFD59B1BE373D7002F50FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CFD59C1BE373D7002F50FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CFD59E1BE373D7002F50FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CFD59F1BE373D7002F50FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CFD5A21BE373D7002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CFD5A41BE373D7002F50FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CFD5A71BE373D7002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CFD5A91BE373D8002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD5AE1BE373D8002F50FC /* 07-计步器(iOS8的API)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "07-计步器(iOS8的API)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD5B21BE373D8002F50FC /* _7_____iOS8_API_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____iOS8_API_Tests.m"; sourceTree = "<group>"; };
+		70CFD5B41BE373D8002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD5B91BE373D8002F50FC /* 07-计步器(iOS8的API)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "07-计步器(iOS8的API)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD5BD1BE373D8002F50FC /* _7_____iOS8_API_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____iOS8_API_UITests.m"; sourceTree = "<group>"; };
+		70CFD5BF1BE373D8002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CFD5921BE373D7002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5AB1BE373D8002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5B61BE373D8002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70CFD58C1BE373D7002F50FC = {
+			isa = PBXGroup;
+			children = (
+				70CFD5971BE373D7002F50FC /* 07-计步器(iOS8的API) */,
+				70CFD5B11BE373D8002F50FC /* 07-计步器(iOS8的API)Tests */,
+				70CFD5BC1BE373D8002F50FC /* 07-计步器(iOS8的API)UITests */,
+				70CFD5961BE373D7002F50FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70CFD5961BE373D7002F50FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD5951BE373D7002F50FC /* 07-计步器(iOS8的API).app */,
+				70CFD5AE1BE373D8002F50FC /* 07-计步器(iOS8的API)Tests.xctest */,
+				70CFD5B91BE373D8002F50FC /* 07-计步器(iOS8的API)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CFD5971BE373D7002F50FC /* 07-计步器(iOS8的API) */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD59B1BE373D7002F50FC /* AppDelegate.h */,
+				70CFD59C1BE373D7002F50FC /* AppDelegate.m */,
+				70CFD59E1BE373D7002F50FC /* ViewController.h */,
+				70CFD59F1BE373D7002F50FC /* ViewController.m */,
+				70CFD5A11BE373D7002F50FC /* Main.storyboard */,
+				70CFD5A41BE373D7002F50FC /* Assets.xcassets */,
+				70CFD5A61BE373D7002F50FC /* LaunchScreen.storyboard */,
+				70CFD5A91BE373D8002F50FC /* Info.plist */,
+				70CFD5981BE373D7002F50FC /* Supporting Files */,
+			);
+			path = "07-计步器(iOS8的API)";
+			sourceTree = "<group>";
+		};
+		70CFD5981BE373D7002F50FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD5991BE373D7002F50FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CFD5B11BE373D8002F50FC /* 07-计步器(iOS8的API)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD5B21BE373D8002F50FC /* _7_____iOS8_API_Tests.m */,
+				70CFD5B41BE373D8002F50FC /* Info.plist */,
+			);
+			path = "07-计步器(iOS8的API)Tests";
+			sourceTree = "<group>";
+		};
+		70CFD5BC1BE373D8002F50FC /* 07-计步器(iOS8的API)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD5BD1BE373D8002F50FC /* _7_____iOS8_API_UITests.m */,
+				70CFD5BF1BE373D8002F50FC /* Info.plist */,
+			);
+			path = "07-计步器(iOS8的API)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CFD5941BE373D7002F50FC /* 07-计步器(iOS8的API) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD5C21BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)" */;
+			buildPhases = (
+				70CFD5911BE373D7002F50FC /* Sources */,
+				70CFD5921BE373D7002F50FC /* Frameworks */,
+				70CFD5931BE373D7002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-计步器(iOS8的API)";
+			productName = "07-计步器(iOS8的API)";
+			productReference = 70CFD5951BE373D7002F50FC /* 07-计步器(iOS8的API).app */;
+			productType = "com.apple.product-type.application";
+		};
+		70CFD5AD1BE373D8002F50FC /* 07-计步器(iOS8的API)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD5C51BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)Tests" */;
+			buildPhases = (
+				70CFD5AA1BE373D8002F50FC /* Sources */,
+				70CFD5AB1BE373D8002F50FC /* Frameworks */,
+				70CFD5AC1BE373D8002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD5B01BE373D8002F50FC /* PBXTargetDependency */,
+			);
+			name = "07-计步器(iOS8的API)Tests";
+			productName = "07-计步器(iOS8的API)Tests";
+			productReference = 70CFD5AE1BE373D8002F50FC /* 07-计步器(iOS8的API)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70CFD5B81BE373D8002F50FC /* 07-计步器(iOS8的API)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD5C81BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)UITests" */;
+			buildPhases = (
+				70CFD5B51BE373D8002F50FC /* Sources */,
+				70CFD5B61BE373D8002F50FC /* Frameworks */,
+				70CFD5B71BE373D8002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD5BB1BE373D8002F50FC /* PBXTargetDependency */,
+			);
+			name = "07-计步器(iOS8的API)UITests";
+			productName = "07-计步器(iOS8的API)UITests";
+			productReference = 70CFD5B91BE373D8002F50FC /* 07-计步器(iOS8的API)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CFD58D1BE373D7002F50FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					70CFD5941BE373D7002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					70CFD5AD1BE373D8002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD5941BE373D7002F50FC;
+					};
+					70CFD5B81BE373D8002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD5941BE373D7002F50FC;
+					};
+				};
+			};
+			buildConfigurationList = 70CFD5901BE373D7002F50FC /* Build configuration list for PBXProject "07-计步器(iOS8的API)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CFD58C1BE373D7002F50FC;
+			productRefGroup = 70CFD5961BE373D7002F50FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CFD5941BE373D7002F50FC /* 07-计步器(iOS8的API) */,
+				70CFD5AD1BE373D8002F50FC /* 07-计步器(iOS8的API)Tests */,
+				70CFD5B81BE373D8002F50FC /* 07-计步器(iOS8的API)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CFD5931BE373D7002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD5A81BE373D7002F50FC /* LaunchScreen.storyboard in Resources */,
+				70CFD5A51BE373D7002F50FC /* Assets.xcassets in Resources */,
+				70CFD5A31BE373D7002F50FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5AC1BE373D8002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5B71BE373D8002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CFD5911BE373D7002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD5A01BE373D7002F50FC /* ViewController.m in Sources */,
+				70CFD59D1BE373D7002F50FC /* AppDelegate.m in Sources */,
+				70CFD59A1BE373D7002F50FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5AA1BE373D8002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD5B31BE373D8002F50FC /* _7_____iOS8_API_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD5B51BE373D8002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD5BE1BE373D8002F50FC /* _7_____iOS8_API_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CFD5B01BE373D8002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD5941BE373D7002F50FC /* 07-计步器(iOS8的API) */;
+			targetProxy = 70CFD5AF1BE373D8002F50FC /* PBXContainerItemProxy */;
+		};
+		70CFD5BB1BE373D8002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD5941BE373D7002F50FC /* 07-计步器(iOS8的API) */;
+			targetProxy = 70CFD5BA1BE373D8002F50FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70CFD5A11BE373D7002F50FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD5A21BE373D7002F50FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CFD5A61BE373D7002F50FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD5A71BE373D7002F50FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CFD5C01BE373D8002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CFD5C11BE373D8002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CFD5C31BE373D8002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-计步器(iOS8的API)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70CFD5C41BE373D8002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-计步器(iOS8的API)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70CFD5C61BE373D8002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "07-计步器(iOS8的API)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07-计步器(iOS8的API).app/07-计步器(iOS8的API)";
+			};
+			name = Debug;
+		};
+		70CFD5C71BE373D8002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "07-计步器(iOS8的API)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07-计步器(iOS8的API).app/07-计步器(iOS8的API)";
+			};
+			name = Release;
+		};
+		70CFD5C91BE373D8002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "07-计步器(iOS8的API)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "07-计步器(iOS8的API)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70CFD5CA1BE373D8002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "07-计步器(iOS8的API)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-7-----iOS8-API-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "07-计步器(iOS8的API)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CFD5901BE373D7002F50FC /* Build configuration list for PBXProject "07-计步器(iOS8的API)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD5C01BE373D8002F50FC /* Debug */,
+				70CFD5C11BE373D8002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CFD5C21BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD5C31BE373D8002F50FC /* Debug */,
+				70CFD5C41BE373D8002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD5C51BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD5C61BE373D8002F50FC /* Debug */,
+				70CFD5C71BE373D8002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD5C81BE373D8002F50FC /* Build configuration list for PBXNativeTarget "07-计步器(iOS8的API)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD5C91BE373D8002F50FC /* Debug */,
+				70CFD5CA1BE373D8002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CFD58D1BE373D7002F50FC /* Project object */;
+}

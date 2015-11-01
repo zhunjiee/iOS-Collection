@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CFD40E1BE30E19002F50FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD40D1BE30E19002F50FC /* main.m */; };
+		70CFD4111BE30E19002F50FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD4101BE30E19002F50FC /* AppDelegate.m */; };
+		70CFD4141BE30E19002F50FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD4131BE30E19002F50FC /* ViewController.m */; };
+		70CFD4171BE30E19002F50FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD4151BE30E19002F50FC /* Main.storyboard */; };
+		70CFD4191BE30E19002F50FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD4181BE30E19002F50FC /* Assets.xcassets */; };
+		70CFD41C1BE30E19002F50FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD41A1BE30E19002F50FC /* LaunchScreen.storyboard */; };
+		70CFD4271BE30E19002F50FC /* _4_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD4261BE30E19002F50FC /* _4_________Tests.m */; };
+		70CFD4321BE30E19002F50FC /* _4_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD4311BE30E19002F50FC /* _4_________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70CFD4231BE30E19002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD4011BE30E19002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD4081BE30E19002F50FC;
+			remoteInfo = "04-陀螺仪信息的获取";
+		};
+		70CFD42E1BE30E19002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD4011BE30E19002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD4081BE30E19002F50FC;
+			remoteInfo = "04-陀螺仪信息的获取";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70CFD4091BE30E19002F50FC /* 04-陀螺仪信息的获取.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-陀螺仪信息的获取.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD40D1BE30E19002F50FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CFD40F1BE30E19002F50FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CFD4101BE30E19002F50FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CFD4121BE30E19002F50FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CFD4131BE30E19002F50FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CFD4161BE30E19002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CFD4181BE30E19002F50FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CFD41B1BE30E19002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CFD41D1BE30E19002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD4221BE30E19002F50FC /* 04-陀螺仪信息的获取Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-陀螺仪信息的获取Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD4261BE30E19002F50FC /* _4_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_________Tests.m"; sourceTree = "<group>"; };
+		70CFD4281BE30E19002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD42D1BE30E19002F50FC /* 04-陀螺仪信息的获取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-陀螺仪信息的获取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD4311BE30E19002F50FC /* _4_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_________UITests.m"; sourceTree = "<group>"; };
+		70CFD4331BE30E19002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CFD4061BE30E19002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD41F1BE30E19002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD42A1BE30E19002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70CFD4001BE30E19002F50FC = {
+			isa = PBXGroup;
+			children = (
+				70CFD40B1BE30E19002F50FC /* 04-陀螺仪信息的获取 */,
+				70CFD4251BE30E19002F50FC /* 04-陀螺仪信息的获取Tests */,
+				70CFD4301BE30E19002F50FC /* 04-陀螺仪信息的获取UITests */,
+				70CFD40A1BE30E19002F50FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70CFD40A1BE30E19002F50FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD4091BE30E19002F50FC /* 04-陀螺仪信息的获取.app */,
+				70CFD4221BE30E19002F50FC /* 04-陀螺仪信息的获取Tests.xctest */,
+				70CFD42D1BE30E19002F50FC /* 04-陀螺仪信息的获取UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CFD40B1BE30E19002F50FC /* 04-陀螺仪信息的获取 */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD40F1BE30E19002F50FC /* AppDelegate.h */,
+				70CFD4101BE30E19002F50FC /* AppDelegate.m */,
+				70CFD4121BE30E19002F50FC /* ViewController.h */,
+				70CFD4131BE30E19002F50FC /* ViewController.m */,
+				70CFD4151BE30E19002F50FC /* Main.storyboard */,
+				70CFD4181BE30E19002F50FC /* Assets.xcassets */,
+				70CFD41A1BE30E19002F50FC /* LaunchScreen.storyboard */,
+				70CFD41D1BE30E19002F50FC /* Info.plist */,
+				70CFD40C1BE30E19002F50FC /* Supporting Files */,
+			);
+			path = "04-陀螺仪信息的获取";
+			sourceTree = "<group>";
+		};
+		70CFD40C1BE30E19002F50FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD40D1BE30E19002F50FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CFD4251BE30E19002F50FC /* 04-陀螺仪信息的获取Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD4261BE30E19002F50FC /* _4_________Tests.m */,
+				70CFD4281BE30E19002F50FC /* Info.plist */,
+			);
+			path = "04-陀螺仪信息的获取Tests";
+			sourceTree = "<group>";
+		};
+		70CFD4301BE30E19002F50FC /* 04-陀螺仪信息的获取UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD4311BE30E19002F50FC /* _4_________UITests.m */,
+				70CFD4331BE30E19002F50FC /* Info.plist */,
+			);
+			path = "04-陀螺仪信息的获取UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CFD4081BE30E19002F50FC /* 04-陀螺仪信息的获取 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD4361BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取" */;
+			buildPhases = (
+				70CFD4051BE30E19002F50FC /* Sources */,
+				70CFD4061BE30E19002F50FC /* Frameworks */,
+				70CFD4071BE30E19002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-陀螺仪信息的获取";
+			productName = "04-陀螺仪信息的获取";
+			productReference = 70CFD4091BE30E19002F50FC /* 04-陀螺仪信息的获取.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70CFD4211BE30E19002F50FC /* 04-陀螺仪信息的获取Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD4391BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取Tests" */;
+			buildPhases = (
+				70CFD41E1BE30E19002F50FC /* Sources */,
+				70CFD41F1BE30E19002F50FC /* Frameworks */,
+				70CFD4201BE30E19002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD4241BE30E19002F50FC /* PBXTargetDependency */,
+			);
+			name = "04-陀螺仪信息的获取Tests";
+			productName = "04-陀螺仪信息的获取Tests";
+			productReference = 70CFD4221BE30E19002F50FC /* 04-陀螺仪信息的获取Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70CFD42C1BE30E19002F50FC /* 04-陀螺仪信息的获取UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD43C1BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取UITests" */;
+			buildPhases = (
+				70CFD4291BE30E19002F50FC /* Sources */,
+				70CFD42A1BE30E19002F50FC /* Frameworks */,
+				70CFD42B1BE30E19002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD42F1BE30E19002F50FC /* PBXTargetDependency */,
+			);
+			name = "04-陀螺仪信息的获取UITests";
+			productName = "04-陀螺仪信息的获取UITests";
+			productReference = 70CFD42D1BE30E19002F50FC /* 04-陀螺仪信息的获取UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CFD4011BE30E19002F50FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					70CFD4081BE30E19002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					70CFD4211BE30E19002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD4081BE30E19002F50FC;
+					};
+					70CFD42C1BE30E19002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD4081BE30E19002F50FC;
+					};
+				};
+			};
+			buildConfigurationList = 70CFD4041BE30E19002F50FC /* Build configuration list for PBXProject "04-陀螺仪信息的获取" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CFD4001BE30E19002F50FC;
+			productRefGroup = 70CFD40A1BE30E19002F50FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CFD4081BE30E19002F50FC /* 04-陀螺仪信息的获取 */,
+				70CFD4211BE30E19002F50FC /* 04-陀螺仪信息的获取Tests */,
+				70CFD42C1BE30E19002F50FC /* 04-陀螺仪信息的获取UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CFD4071BE30E19002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD41C1BE30E19002F50FC /* LaunchScreen.storyboard in Resources */,
+				70CFD4191BE30E19002F50FC /* Assets.xcassets in Resources */,
+				70CFD4171BE30E19002F50FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD4201BE30E19002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD42B1BE30E19002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CFD4051BE30E19002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD4141BE30E19002F50FC /* ViewController.m in Sources */,
+				70CFD4111BE30E19002F50FC /* AppDelegate.m in Sources */,
+				70CFD40E1BE30E19002F50FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD41E1BE30E19002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD4271BE30E19002F50FC /* _4_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD4291BE30E19002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD4321BE30E19002F50FC /* _4_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CFD4241BE30E19002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD4081BE30E19002F50FC /* 04-陀螺仪信息的获取 */;
+			targetProxy = 70CFD4231BE30E19002F50FC /* PBXContainerItemProxy */;
+		};
+		70CFD42F1BE30E19002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD4081BE30E19002F50FC /* 04-陀螺仪信息的获取 */;
+			targetProxy = 70CFD42E1BE30E19002F50FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70CFD4151BE30E19002F50FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD4161BE30E19002F50FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CFD41A1BE30E19002F50FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD41B1BE30E19002F50FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CFD4341BE30E19002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CFD4351BE30E19002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CFD4371BE30E19002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-陀螺仪信息的获取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70CFD4381BE30E19002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-陀螺仪信息的获取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70CFD43A1BE30E19002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-陀螺仪信息的获取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-陀螺仪信息的获取.app/04-陀螺仪信息的获取";
+			};
+			name = Debug;
+		};
+		70CFD43B1BE30E19002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-陀螺仪信息的获取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-陀螺仪信息的获取.app/04-陀螺仪信息的获取";
+			};
+			name = Release;
+		};
+		70CFD43D1BE30E19002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-陀螺仪信息的获取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-陀螺仪信息的获取";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70CFD43E1BE30E19002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-陀螺仪信息的获取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-陀螺仪信息的获取";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CFD4041BE30E19002F50FC /* Build configuration list for PBXProject "04-陀螺仪信息的获取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD4341BE30E19002F50FC /* Debug */,
+				70CFD4351BE30E19002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CFD4361BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD4371BE30E19002F50FC /* Debug */,
+				70CFD4381BE30E19002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD4391BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD43A1BE30E19002F50FC /* Debug */,
+				70CFD43B1BE30E19002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD43C1BE30E19002F50FC /* Build configuration list for PBXNativeTarget "04-陀螺仪信息的获取UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD43D1BE30E19002F50FC /* Debug */,
+				70CFD43E1BE30E19002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CFD4011BE30E19002F50FC /* Project object */;
+}

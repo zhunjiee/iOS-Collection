@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CFD3CF1BE309FB002F50FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD3CE1BE309FB002F50FC /* main.m */; };
+		70CFD3D21BE309FB002F50FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD3D11BE309FB002F50FC /* AppDelegate.m */; };
+		70CFD3D51BE309FB002F50FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD3D41BE309FB002F50FC /* ViewController.m */; };
+		70CFD3D81BE309FB002F50FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD3D61BE309FB002F50FC /* Main.storyboard */; };
+		70CFD3DA1BE309FB002F50FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD3D91BE309FB002F50FC /* Assets.xcassets */; };
+		70CFD3DD1BE309FB002F50FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CFD3DB1BE309FB002F50FC /* LaunchScreen.storyboard */; };
+		70CFD3E81BE309FC002F50FC /* _3___________API_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD3E71BE309FC002F50FC /* _3___________API_Tests.m */; };
+		70CFD3F31BE309FC002F50FC /* _3___________API_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CFD3F21BE309FC002F50FC /* _3___________API_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70CFD3E41BE309FC002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD3C21BE309FB002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD3C91BE309FB002F50FC;
+			remoteInfo = "03-加速计信息的获取(新API)";
+		};
+		70CFD3EF1BE309FC002F50FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CFD3C21BE309FB002F50FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CFD3C91BE309FB002F50FC;
+			remoteInfo = "03-加速计信息的获取(新API)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70CFD3CA1BE309FB002F50FC /* 03-加速计信息的获取(新API).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-加速计信息的获取(新API).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD3CE1BE309FB002F50FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CFD3D01BE309FB002F50FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CFD3D11BE309FB002F50FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CFD3D31BE309FB002F50FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CFD3D41BE309FB002F50FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CFD3D71BE309FB002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CFD3D91BE309FB002F50FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CFD3DC1BE309FB002F50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CFD3DE1BE309FB002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD3E31BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-加速计信息的获取(新API)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD3E71BE309FC002F50FC /* _3___________API_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3___________API_Tests.m"; sourceTree = "<group>"; };
+		70CFD3E91BE309FC002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CFD3EE1BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-加速计信息的获取(新API)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFD3F21BE309FC002F50FC /* _3___________API_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3___________API_UITests.m"; sourceTree = "<group>"; };
+		70CFD3F41BE309FC002F50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CFD3C71BE309FB002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3E01BE309FC002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3EB1BE309FC002F50FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70CFD3C11BE309FB002F50FC = {
+			isa = PBXGroup;
+			children = (
+				70CFD3CC1BE309FB002F50FC /* 03-加速计信息的获取(新API) */,
+				70CFD3E61BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests */,
+				70CFD3F11BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests */,
+				70CFD3CB1BE309FB002F50FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70CFD3CB1BE309FB002F50FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD3CA1BE309FB002F50FC /* 03-加速计信息的获取(新API).app */,
+				70CFD3E31BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests.xctest */,
+				70CFD3EE1BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CFD3CC1BE309FB002F50FC /* 03-加速计信息的获取(新API) */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD3D01BE309FB002F50FC /* AppDelegate.h */,
+				70CFD3D11BE309FB002F50FC /* AppDelegate.m */,
+				70CFD3D31BE309FB002F50FC /* ViewController.h */,
+				70CFD3D41BE309FB002F50FC /* ViewController.m */,
+				70CFD3D61BE309FB002F50FC /* Main.storyboard */,
+				70CFD3D91BE309FB002F50FC /* Assets.xcassets */,
+				70CFD3DB1BE309FB002F50FC /* LaunchScreen.storyboard */,
+				70CFD3DE1BE309FB002F50FC /* Info.plist */,
+				70CFD3CD1BE309FB002F50FC /* Supporting Files */,
+			);
+			path = "03-加速计信息的获取(新API)";
+			sourceTree = "<group>";
+		};
+		70CFD3CD1BE309FB002F50FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD3CE1BE309FB002F50FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CFD3E61BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD3E71BE309FC002F50FC /* _3___________API_Tests.m */,
+				70CFD3E91BE309FC002F50FC /* Info.plist */,
+			);
+			path = "03-加速计信息的获取(新API)Tests";
+			sourceTree = "<group>";
+		};
+		70CFD3F11BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70CFD3F21BE309FC002F50FC /* _3___________API_UITests.m */,
+				70CFD3F41BE309FC002F50FC /* Info.plist */,
+			);
+			path = "03-加速计信息的获取(新API)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CFD3C91BE309FB002F50FC /* 03-加速计信息的获取(新API) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD3F71BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)" */;
+			buildPhases = (
+				70CFD3C61BE309FB002F50FC /* Sources */,
+				70CFD3C71BE309FB002F50FC /* Frameworks */,
+				70CFD3C81BE309FB002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-加速计信息的获取(新API)";
+			productName = "03-加速计信息的获取(新API)";
+			productReference = 70CFD3CA1BE309FB002F50FC /* 03-加速计信息的获取(新API).app */;
+			productType = "com.apple.product-type.application";
+		};
+		70CFD3E21BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD3FA1BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)Tests" */;
+			buildPhases = (
+				70CFD3DF1BE309FC002F50FC /* Sources */,
+				70CFD3E01BE309FC002F50FC /* Frameworks */,
+				70CFD3E11BE309FC002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD3E51BE309FC002F50FC /* PBXTargetDependency */,
+			);
+			name = "03-加速计信息的获取(新API)Tests";
+			productName = "03-加速计信息的获取(新API)Tests";
+			productReference = 70CFD3E31BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70CFD3ED1BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CFD3FD1BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)UITests" */;
+			buildPhases = (
+				70CFD3EA1BE309FC002F50FC /* Sources */,
+				70CFD3EB1BE309FC002F50FC /* Frameworks */,
+				70CFD3EC1BE309FC002F50FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CFD3F01BE309FC002F50FC /* PBXTargetDependency */,
+			);
+			name = "03-加速计信息的获取(新API)UITests";
+			productName = "03-加速计信息的获取(新API)UITests";
+			productReference = 70CFD3EE1BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CFD3C21BE309FB002F50FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					70CFD3C91BE309FB002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					70CFD3E21BE309FC002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD3C91BE309FB002F50FC;
+					};
+					70CFD3ED1BE309FC002F50FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70CFD3C91BE309FB002F50FC;
+					};
+				};
+			};
+			buildConfigurationList = 70CFD3C51BE309FB002F50FC /* Build configuration list for PBXProject "03-加速计信息的获取(新API)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CFD3C11BE309FB002F50FC;
+			productRefGroup = 70CFD3CB1BE309FB002F50FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CFD3C91BE309FB002F50FC /* 03-加速计信息的获取(新API) */,
+				70CFD3E21BE309FC002F50FC /* 03-加速计信息的获取(新API)Tests */,
+				70CFD3ED1BE309FC002F50FC /* 03-加速计信息的获取(新API)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CFD3C81BE309FB002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD3DD1BE309FB002F50FC /* LaunchScreen.storyboard in Resources */,
+				70CFD3DA1BE309FB002F50FC /* Assets.xcassets in Resources */,
+				70CFD3D81BE309FB002F50FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3E11BE309FC002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3EC1BE309FC002F50FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CFD3C61BE309FB002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD3D51BE309FB002F50FC /* ViewController.m in Sources */,
+				70CFD3D21BE309FB002F50FC /* AppDelegate.m in Sources */,
+				70CFD3CF1BE309FB002F50FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3DF1BE309FC002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD3E81BE309FC002F50FC /* _3___________API_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFD3EA1BE309FC002F50FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CFD3F31BE309FC002F50FC /* _3___________API_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CFD3E51BE309FC002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD3C91BE309FB002F50FC /* 03-加速计信息的获取(新API) */;
+			targetProxy = 70CFD3E41BE309FC002F50FC /* PBXContainerItemProxy */;
+		};
+		70CFD3F01BE309FC002F50FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CFD3C91BE309FB002F50FC /* 03-加速计信息的获取(新API) */;
+			targetProxy = 70CFD3EF1BE309FC002F50FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70CFD3D61BE309FB002F50FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD3D71BE309FB002F50FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CFD3DB1BE309FB002F50FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CFD3DC1BE309FB002F50FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CFD3F51BE309FC002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CFD3F61BE309FC002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CFD3F81BE309FC002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70CFD3F91BE309FC002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70CFD3FB1BE309FC002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-加速计信息的获取(新API).app/03-加速计信息的获取(新API)";
+			};
+			name = Debug;
+		};
+		70CFD3FC1BE309FC002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-加速计信息的获取(新API).app/03-加速计信息的获取(新API)";
+			};
+			name = Release;
+		};
+		70CFD3FE1BE309FC002F50FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-加速计信息的获取(新API)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70CFD3FF1BE309FC002F50FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-加速计信息的获取(新API)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-3-----------API-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-加速计信息的获取(新API)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CFD3C51BE309FB002F50FC /* Build configuration list for PBXProject "03-加速计信息的获取(新API)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD3F51BE309FC002F50FC /* Debug */,
+				70CFD3F61BE309FC002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CFD3F71BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD3F81BE309FC002F50FC /* Debug */,
+				70CFD3F91BE309FC002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD3FA1BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD3FB1BE309FC002F50FC /* Debug */,
+				70CFD3FC1BE309FC002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70CFD3FD1BE309FC002F50FC /* Build configuration list for PBXNativeTarget "03-加速计信息的获取(新API)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CFD3FE1BE309FC002F50FC /* Debug */,
+				70CFD3FF1BE309FC002F50FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CFD3C21BE309FB002F50FC /* Project object */;
+}
