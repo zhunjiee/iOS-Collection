@@ -64,8 +64,8 @@
 }
 
 
-#define targetRightX 300
-#define targetLeftX -250
+#define targetRightX 240
+#define targetLeftX -180
 - (void)pan:(UIPanGestureRecognizer *)pan{
     // 获取手指偏移量
     CGFloat offsetX = [pan translationInView:self.mainView].x;
