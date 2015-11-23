@@ -128,7 +128,7 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     [self reloadImage];
     
-    self.scrollView.contentOffset = CGPointMake(kScreenW, 0);
+//    self.scrollView.contentOffset = CGPointMake(kScreenW, 0);
 
     self.pageControl.currentPage = self.index;
 }
