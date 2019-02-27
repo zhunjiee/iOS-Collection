@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E048A210C90A4A8316F898F708844E4C3D128C75",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E048A210C90A4A8316F898F708844E4C3D128C75" : 9223372036854775807,
+    "49F625398AF701C79EAC3D8FD06A48DEE602CD6C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A8D6A690-D32C-414C-91B9-C8B79DFBD8D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E048A210C90A4A8316F898F708844E4C3D128C75" : "iOSProgram\/",
+    "49F625398AF701C79EAC3D8FD06A48DEE602CD6C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MZGuidePages",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZJGuidePages\/MZGuidePages.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "124.133.15.93:wosjteam\/wosj_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49F625398AF701C79EAC3D8FD06A48DEE602CD6C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhunjiee\/Program.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E048A210C90A4A8316F898F708844E4C3D128C75"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E048A210C90A4A8316F898F708844E4C3D128C75",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E048A210C90A4A8316F898F708844E4C3D128C75" : 9223372036854775807,
+    "49F625398AF701C79EAC3D8FD06A48DEE602CD6C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DEA05E36-EC02-4E03-8891-DE84B80DB5D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E048A210C90A4A8316F898F708844E4C3D128C75" : "iOSProgram\/",
+    "49F625398AF701C79EAC3D8FD06A48DEE602CD6C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UICollectionView实现图片轮播",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UICollectionView实现图片轮播\/UICollectionView实现图片轮播.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "124.133.15.93:wosjteam\/wosj_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49F625398AF701C79EAC3D8FD06A48DEE602CD6C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhunjiee\/Program.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E048A210C90A4A8316F898F708844E4C3D128C75"
+    }
+  ]
+}
