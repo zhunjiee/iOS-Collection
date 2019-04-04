@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'AFNetworking封装' do
+  pod 'AFNetworking'
+end
