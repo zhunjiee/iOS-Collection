@@ -14,9 +14,13 @@
 
 @implementation MYNavigationController
 + (void)initialize {
-    // 设置导航栏背景图片
+    // 去除导航栏的毛玻璃效果
     UINavigationBar *bar = [UINavigationBar appearance];
-    [bar setBackgroundImage:[UIImage imageNamed:@"nav-background"] forBarMetrics:UIBarMetricsDefault];
+    // 方式一：设置导航栏背景图片
+//    [bar setBackgroundImage:[UIImage imageNamed:@"nav-background"] forBarMetrics:UIBarMetricsDefault];
+    // 方式二：设置背景色
+    bar.translucent = NO;
+    
     // 设置标题文字
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:20];
@@ -57,12 +61,6 @@
     }
     
     [super pushViewController:viewController animated:animated];
-    
-    // 解决TabBar在跳转的时候位移，导致返回的时候有一个很难看的动画的问题
-    // 修改tabBra的frame
-//    CGRect frame = self.tabBarController.tabBar.frame;
-//    frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
-//    self.tabBarController.tabBar.frame = frame;
 }
 
 - (void)goBack {
