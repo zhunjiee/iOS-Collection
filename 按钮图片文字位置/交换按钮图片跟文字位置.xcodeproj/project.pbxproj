@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7895230B2297D7AD00067FEA /* VerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7895230A2297D7AD00067FEA /* VerticalButton.m */; };
 		8EF6B8561BE4D4E60081E76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6B8551BE4D4E60081E76E /* main.m */; };
 		8EF6B8591BE4D4E70081E76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6B8581BE4D4E70081E76E /* AppDelegate.m */; };
 		8EF6B85C1BE4D4E70081E76E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6B85B1BE4D4E70081E76E /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		789523092297D7AD00067FEA /* VerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalButton.h; sourceTree = "<group>"; };
+		7895230A2297D7AD00067FEA /* VerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalButton.m; sourceTree = "<group>"; };
 		8EF6B8511BE4D4E60081E76E /* 交换按钮图片跟文字位置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "交换按钮图片跟文字位置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF6B8551BE4D4E60081E76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF6B8571BE4D4E60081E76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				8EF6B8541BE4D4E60081E76E /* Supporting Files */,
 				8EF6BBB01BE4ED6C0081E76E /* ZJButton.h */,
 				8EF6BBB11BE4ED6C0081E76E /* ZJButton.m */,
+				789523092297D7AD00067FEA /* VerticalButton.h */,
+				7895230A2297D7AD00067FEA /* VerticalButton.m */,
 				8EF6BBB31BE4F7C80081E76E /* UIView+Extension.h */,
 				8EF6BBB41BE4F7C80081E76E /* UIView+Extension.m */,
 			);
@@ -233,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,6 +291,7 @@
 				8EF6BBB21BE4ED6C0081E76E /* ZJButton.m in Sources */,
 				8EF6B8591BE4D4E70081E76E /* AppDelegate.m in Sources */,
 				8EF6B8561BE4D4E60081E76E /* main.m in Sources */,
+				7895230B2297D7AD00067FEA /* VerticalButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +517,7 @@
 				8EF6B8801BE4D4E70081E76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF6B8811BE4D4E70081E76E /* Build configuration list for PBXNativeTarget "交换按钮图片跟文字位置Tests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				8EF6B8831BE4D4E70081E76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF6B8841BE4D4E70081E76E /* Build configuration list for PBXNativeTarget "交换按钮图片跟文字位置UITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				8EF6B8861BE4D4E70081E76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

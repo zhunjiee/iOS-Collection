@@ -13,5 +13,13 @@
 @property (nonatomic, assign) CGFloat width;
 /** 高度 */
 @property (nonatomic, assign) CGFloat height;
+/** X值 */
+@property (nonatomic, assign) CGFloat x;
+/** Y值 */
+@property (nonatomic, assign) CGFloat y;
+/** centerX */
+@property (nonatomic, assign) CGFloat centerX;
+/** centerY */
+@property (nonatomic, assign) CGFloat centerY;
 
 @end
