@@ -18,6 +18,7 @@
 		8ECCB4C9224F6FED00F51682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB4C8224F6FED00F51682 /* Assets.xcassets */; };
 		8ECCB4CC224F6FED00F51682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB4CA224F6FED00F51682 /* LaunchScreen.storyboard */; };
 		8ECCB4CF224F6FED00F51682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCB4CE224F6FED00F51682 /* main.m */; };
+		FFE941A262AB194ED9E78E76 /* Pods_AFNetworking__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FF614137B01A907C523709 /* Pods_AFNetworking__.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,9 @@
 		8ECCB4CD224F6FED00F51682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECCB4CE224F6FED00F51682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A817E7D46CC8AD87CE74E0B2 /* Pods-AFNetworking封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking封装.release.xcconfig"; path = "Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装.release.xcconfig"; sourceTree = "<group>"; };
+		B074814BFC77F6170A38D737 /* Pods-AFNetworking封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking封装.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装.release.xcconfig"; sourceTree = "<group>"; };
 		D0C54AA93BBA7DA83A7B0745 /* Pods-AFNetworking封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking封装.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装.debug.xcconfig"; sourceTree = "<group>"; };
+		D85001A42A0A8996CAD44B05 /* Pods-AFNetworking封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking封装.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			files = (
 				8EACC459224F80C200568A10 /* Pods_AFNetworking封装.framework in Frameworks */,
 				8EACC457224F80A300568A10 /* AFNetworking.framework in Frameworks */,
+				FFE941A262AB194ED9E78E76 /* Pods_AFNetworking__.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +124,8 @@
 			children = (
 				D0C54AA93BBA7DA83A7B0745 /* Pods-AFNetworking封装.debug.xcconfig */,
 				A817E7D46CC8AD87CE74E0B2 /* Pods-AFNetworking封装.release.xcconfig */,
+				D85001A42A0A8996CAD44B05 /* Pods-AFNetworking封装.debug.xcconfig */,
+				B074814BFC77F6170A38D737 /* Pods-AFNetworking封装.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -222,7 +228,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -233,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking封装/Pods-AFNetworking封装-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -388,7 +394,7 @@
 		};
 		8ECCB4D3224F6FED00F51682 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C54AA93BBA7DA83A7B0745 /* Pods-AFNetworking封装.debug.xcconfig */;
+			baseConfigurationReference = D85001A42A0A8996CAD44B05 /* Pods-AFNetworking封装.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,7 +413,7 @@
 		};
 		8ECCB4D4224F6FED00F51682 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A817E7D46CC8AD87CE74E0B2 /* Pods-AFNetworking封装.release.xcconfig */;
+			baseConfigurationReference = B074814BFC77F6170A38D737 /* Pods-AFNetworking封装.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

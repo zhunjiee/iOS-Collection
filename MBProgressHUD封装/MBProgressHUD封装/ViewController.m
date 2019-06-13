@@ -47,6 +47,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
         case 0:
         {
@@ -72,7 +73,7 @@
         }
         case 5:{
             MBProgressHUD *hud = [MBProgressHUD showActivityMessage:@"加载中..."];
-            [hud hide:YES afterDelay:kHudShowTime];
+            [hud hideAnimated:YES afterDelay:kHudShowTime];
             break;
         }
         case 6:{
@@ -104,7 +105,7 @@
                 }
                 // 100%后移除
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [hud hide:YES];
+                    [hud hideAnimated:YES];
                 });
             });
             

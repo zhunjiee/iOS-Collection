@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
 #import "UploadParam.h"
 
 // 网络请求类型
