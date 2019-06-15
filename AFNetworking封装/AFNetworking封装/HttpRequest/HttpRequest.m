@@ -7,6 +7,7 @@
 //
 
 #import "HttpRequest.h"
+#import <AFNetworking.h>
 
 @implementation HttpRequest
 static id _instance = nil;
