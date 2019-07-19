@@ -19,6 +19,12 @@
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    // 整个view背景颜色
+    hud.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.3];
+    // hud背景颜色
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    // 文字颜色
+    hud.contentColor = [UIColor whiteColor];
     hud.label.text = text;
     // 判断是否显示图片
     if (icon == nil) {
@@ -62,6 +68,12 @@
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    // 整个view背景颜色
+    hud.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.3];
+    // hud背景颜色
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    // 文字颜色
+    hud.contentColor = [UIColor whiteColor];
     hud.label.text = message;
     // 细节文字
     //    hud.detailsLabelText = @"请耐心等待";
@@ -78,6 +90,12 @@
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.mode = MBProgressHUDModeDeterminate;
+    // 整个view背景颜色
+    hud.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.3];
+    // hud背景颜色
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    // 文字颜色
+    hud.contentColor = [UIColor whiteColor];
     hud.label.text = @"加载中...";
     return hud;
 }
