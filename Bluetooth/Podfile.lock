@@ -1,0 +1,20 @@
+PODS:
+  - BabyBluetooth (0.7.0)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - BabyBluetooth (~> 0.7.0)
+  - MBProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BabyBluetooth
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: 48331f7da65771da89bad34e54cc828a02d1066a
+
+COCOAPODS: 1.5.3
