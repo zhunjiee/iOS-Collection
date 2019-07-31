@@ -15,17 +15,22 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)showSuccess:(NSString *)success toView:(UIView *)view delay:(NSTimeInterval)delay;
 + (void)showError:(NSString *)error toView:(UIView *)view delay:(NSTimeInterval)delay;
 + (void)showWarning:(NSString *)warning toView:(UIView *)view delay:(NSTimeInterval)delay;
+// 只显示文字,不带菊花
++ (void)showText:(NSString *)text toView:(UIView *)view delay:(NSTimeInterval)delay;
 
 + (void)showSuccess:(NSString *)success toView:(UIView *)view;
 + (void)showError:(NSString *)error toView:(UIView *)view;
 + (void)showWarning:(NSString *)warning toView:(UIView *)view;
++ (void)showText:(NSString *)text toView:(UIView *)view;
 
-
+// 显示转圈菊花
 + (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view;
 
 //显示长文本信息
 + (void)showDetailMessage:(NSString *)message toView:(UIView *)view delay:(NSTimeInterval)delay;
 
+// 隐藏
++ (void)hideHUD;
 
 @end
 

@@ -14,13 +14,11 @@
 		78762F1822E1C9E400E6656B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78762F1722E1C9E400E6656B /* Assets.xcassets */; };
 		78762F1B22E1C9E400E6656B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78762F1922E1C9E400E6656B /* LaunchScreen.storyboard */; };
 		78762F1E22E1C9E400E6656B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78762F1D22E1C9E400E6656B /* main.m */; };
-		78762F2E22E29D7E00E6656B /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2822E29D7E00E6656B /* error@2x.png */; };
-		78762F2F22E29D7E00E6656B /* warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2922E29D7E00E6656B /* warn@2x.png */; };
-		78762F3022E29D7E00E6656B /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2A22E29D7E00E6656B /* success@3x.png */; };
-		78762F3122E29D7E00E6656B /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2B22E29D7E00E6656B /* success@2x.png */; };
-		78762F3222E29D7E00E6656B /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2C22E29D7E00E6656B /* error.png */; };
-		78762F3322E29D7E00E6656B /* warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F2D22E29D7E00E6656B /* warn@3x.png */; };
-		78762F3622E29DB600E6656B /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78762F3522E29DB600E6656B /* MBProgressHUD+Extension.m */; };
+		78762F6822E2B7DE00E6656B /* MBProgressHUD+XBLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 78762F6022E2B7DE00E6656B /* MBProgressHUD+XBLoading.m */; };
+		78762F6922E2B7DE00E6656B /* LoadingStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78762F6122E2B7DE00E6656B /* LoadingStyleManager.m */; };
+		78762F6A22E2B7DE00E6656B /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F6422E2B7DE00E6656B /* error@2x.png */; };
+		78762F6B22E2B7DE00E6656B /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F6522E2B7DE00E6656B /* warning@2x.png */; };
+		78762F6C22E2B7DE00E6656B /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78762F6622E2B7DE00E6656B /* success@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +34,13 @@
 		78762F1A22E1C9E400E6656B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78762F1C22E1C9E400E6656B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78762F1D22E1C9E400E6656B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78762F2822E29D7E00E6656B /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "error@2x.png"; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/error@2x.png"; sourceTree = "<group>"; };
-		78762F2922E29D7E00E6656B /* warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "warn@2x.png"; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/warn@2x.png"; sourceTree = "<group>"; };
-		78762F2A22E29D7E00E6656B /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@3x.png"; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/success@3x.png"; sourceTree = "<group>"; };
-		78762F2B22E29D7E00E6656B /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@2x.png"; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/success@2x.png"; sourceTree = "<group>"; };
-		78762F2C22E29D7E00E6656B /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/error.png"; sourceTree = "<group>"; };
-		78762F2D22E29D7E00E6656B /* warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "warn@3x.png"; path = "../../../../MBProgressHUD封装/MBProgressHUD封装/MBProgressHUD+HBW/sources.bundle/warn@3x.png"; sourceTree = "<group>"; };
-		78762F3422E29DB600E6656B /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
-		78762F3522E29DB600E6656B /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		78762F6022E2B7DE00E6656B /* MBProgressHUD+XBLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XBLoading.m"; sourceTree = "<group>"; };
+		78762F6122E2B7DE00E6656B /* LoadingStyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingStyleManager.m; sourceTree = "<group>"; };
+		78762F6222E2B7DE00E6656B /* MBProgressHUD+XBLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XBLoading.h"; sourceTree = "<group>"; };
+		78762F6422E2B7DE00E6656B /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		78762F6522E2B7DE00E6656B /* warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@2x.png"; sourceTree = "<group>"; };
+		78762F6622E2B7DE00E6656B /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		78762F6722E2B7DE00E6656B /* LoadingStyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingStyleManager.h; sourceTree = "<group>"; };
 		A2D708F4CD5E1F7E555D3CB6 /* Pods-Bluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth/Pods-Bluetooth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +94,7 @@
 		78762F0D22E1C9E300E6656B /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				78762F2422E29B8900E6656B /* MBProgressHUD+Extension */,
+				78762F5F22E2B7DE00E6656B /* CustomLoading */,
 				78762F0E22E1C9E300E6656B /* AppDelegate.h */,
 				78762F0F22E1C9E300E6656B /* AppDelegate.m */,
 				78762F1122E1C9E300E6656B /* ViewController.h */,
@@ -111,27 +108,26 @@
 			path = Bluetooth;
 			sourceTree = "<group>";
 		};
-		78762F2422E29B8900E6656B /* MBProgressHUD+Extension */ = {
+		78762F5F22E2B7DE00E6656B /* CustomLoading */ = {
 			isa = PBXGroup;
 			children = (
-				78762F2722E29D6D00E6656B /* sources */,
-				78762F3422E29DB600E6656B /* MBProgressHUD+Extension.h */,
-				78762F3522E29DB600E6656B /* MBProgressHUD+Extension.m */,
+				78762F6322E2B7DE00E6656B /* Resource */,
+				78762F6222E2B7DE00E6656B /* MBProgressHUD+XBLoading.h */,
+				78762F6022E2B7DE00E6656B /* MBProgressHUD+XBLoading.m */,
+				78762F6722E2B7DE00E6656B /* LoadingStyleManager.h */,
+				78762F6122E2B7DE00E6656B /* LoadingStyleManager.m */,
 			);
-			path = "MBProgressHUD+Extension";
+			path = CustomLoading;
 			sourceTree = "<group>";
 		};
-		78762F2722E29D6D00E6656B /* sources */ = {
+		78762F6322E2B7DE00E6656B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				78762F2C22E29D7E00E6656B /* error.png */,
-				78762F2822E29D7E00E6656B /* error@2x.png */,
-				78762F2B22E29D7E00E6656B /* success@2x.png */,
-				78762F2A22E29D7E00E6656B /* success@3x.png */,
-				78762F2922E29D7E00E6656B /* warn@2x.png */,
-				78762F2D22E29D7E00E6656B /* warn@3x.png */,
+				78762F6422E2B7DE00E6656B /* error@2x.png */,
+				78762F6522E2B7DE00E6656B /* warning@2x.png */,
+				78762F6622E2B7DE00E6656B /* success@2x.png */,
 			);
-			path = sources;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,15 +188,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78762F3122E29D7E00E6656B /* success@2x.png in Resources */,
 				78762F1B22E1C9E400E6656B /* LaunchScreen.storyboard in Resources */,
+				78762F6B22E2B7DE00E6656B /* warning@2x.png in Resources */,
+				78762F6C22E2B7DE00E6656B /* success@2x.png in Resources */,
 				78762F1822E1C9E400E6656B /* Assets.xcassets in Resources */,
 				78762F1622E1C9E300E6656B /* Main.storyboard in Resources */,
-				78762F3022E29D7E00E6656B /* success@3x.png in Resources */,
-				78762F2F22E29D7E00E6656B /* warn@2x.png in Resources */,
-				78762F3222E29D7E00E6656B /* error.png in Resources */,
-				78762F3322E29D7E00E6656B /* warn@3x.png in Resources */,
-				78762F2E22E29D7E00E6656B /* error@2x.png in Resources */,
+				78762F6A22E2B7DE00E6656B /* error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78762F6822E2B7DE00E6656B /* MBProgressHUD+XBLoading.m in Sources */,
 				78762F1322E1C9E300E6656B /* ViewController.m in Sources */,
-				78762F3622E29DB600E6656B /* MBProgressHUD+Extension.m in Sources */,
+				78762F6922E2B7DE00E6656B /* LoadingStyleManager.m in Sources */,
 				78762F1E22E1C9E400E6656B /* main.m in Sources */,
 				78762F1022E1C9E300E6656B /* AppDelegate.m in Sources */,
 			);

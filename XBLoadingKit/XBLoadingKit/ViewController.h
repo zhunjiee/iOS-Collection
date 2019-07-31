@@ -19,7 +19,8 @@ typedef NS_ENUM(NSInteger, TipStatus) {
     
     operation_success_status,
     operation_fail_status,
-    operation_warning_status
+    operation_warning_status,
+    operation_text_status
 };
 
 @interface ViewController : UIViewController

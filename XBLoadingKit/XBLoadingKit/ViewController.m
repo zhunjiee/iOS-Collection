@@ -31,7 +31,7 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [[LoadingStyleManager sharedInstance] setHudStyle:dim_background_style]; //此处打开就是一个黑色背景的提示
+//    [[LoadingStyleManager sharedInstance] setHudStyle:dim_background_style]; //此处打开就是一个黑色背景的提示
     [[LoadingStyleManager sharedInstance] setHudShowTime:1.5]; //设置提示显示的时长
     [self.view addSubview:self.tableview];
     [self.tableview reloadData];
@@ -63,6 +63,7 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
         case 0:
             [self showOperationHudWithStatus:operation_success_status];
             break;
+            
         case 1:
             [self showOperationHudWithStatus:operation_fail_status];
             break;
@@ -70,12 +71,19 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
         case 2:
             [self showOperationHudWithStatus:operation_warning_status];
             break;
+            
         case 3:
+            [self showOperationHudWithStatus:operation_text_status];
+            break;
+            
+        case 4:
             [self networkLoading];
             break;
-        case 4:
+            
+        case 5:
             [self showLongMessage];
             break;
+            
         default:
             break;
     }
@@ -89,11 +97,17 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
         case operation_success_status:
             [MBProgressHUD showSuccess:@"操作成功的提示" toView:self.view]; //成功的提示
             break;
+            
         case operation_fail_status:
             [MBProgressHUD showError:@"操作失败的提示" toView:self.view]; //失败提示
             break;
+            
         case operation_warning_status:
             [MBProgressHUD showWarning:@"操作遇到了警告" toView:self.view]; //警告提示
+            break;
+            
+        case operation_text_status:
+            [MBProgressHUD showText:@"纯文字的提示" toView:self.view]; //纯文字提示
             break;
             
         default:
@@ -108,7 +122,7 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC);
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         // Do something...
-        [MBProgressHUD hideHUDForView:self.view animated:YES];
+        [MBProgressHUD hideHUD];
     });
 }
 
@@ -138,7 +152,7 @@ static NSString *const kCellIdentifier = @"UITableViewCell";
     
     if(!_dataArr){
         
-        _dataArr = @[@"默认时长的成功提示", @"默认时长的出错提示", @"默认时长警告提示", @"网络请求的loading提示", @"显示长文本"];
+        _dataArr = @[@"默认时长的成功提示", @"默认时长的出错提示", @"默认时长警告提示", @"默认时长纯文字", @"网络请求的loading提示", @"显示长文本"];
     }
     return _dataArr;
 }
