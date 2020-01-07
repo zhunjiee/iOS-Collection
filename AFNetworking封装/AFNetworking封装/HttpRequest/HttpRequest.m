@@ -35,8 +35,8 @@ static id _instance = nil;
             switch (status) {
                 case AFNetworkReachabilityStatusUnknown:
                 {
-                    // 位置网络
-                    NSLog(@"位置网络");
+                    // 未知网络
+                    NSLog(@"未知网络");
                 }
                     break;
                 case AFNetworkReachabilityStatusNotReachable:
