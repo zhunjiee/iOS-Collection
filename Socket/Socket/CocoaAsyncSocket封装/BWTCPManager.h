@@ -5,6 +5,7 @@
 //  Created by Houge on 2020/1/7.
 //  Copyright © 2020 ZHUNJIEE. All rights reserved.
 //
+// https://www.jianshu.com/p/c96fd87371d6
 
 #import <Foundation/Foundation.h>
 #import <GCDAsyncSocket.h>
