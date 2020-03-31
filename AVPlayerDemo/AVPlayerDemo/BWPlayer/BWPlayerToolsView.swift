@@ -15,21 +15,28 @@ protocol BWPlayerToolsDelegate: NSObjectProtocol {
 class BWPlayerToolsView: UIView {
     weak var delegate: BWPlayerToolsDelegate?
     // 播放按钮
-    lazy var playButton: UIButton = {
-        let btn = UIButton(type: .custom)
-        return btn
-    }()
+    var playButton: UIButton?
     // 进度条
-    lazy var progressBar: UISlider = {
-        let progressBar = UISlider()
-        return progressBar
-    }()
+    var progressBar: UISlider?
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        createChildView()
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
+        createChildView()
+    }
+    
+    func createChildView() {
+        playButton = UIButton(type: .custom)
+        progressBar = UISlider()
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
     }
 }
