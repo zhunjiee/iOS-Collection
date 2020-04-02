@@ -13,9 +13,11 @@
 		78765ACF2422F3F300C6A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78765ACD2422F3F300C6A1A5 /* Main.storyboard */; };
 		78765AD12422F3F400C6A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78765AD02422F3F400C6A1A5 /* Assets.xcassets */; };
 		78765AD42422F3F400C6A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78765AD22422F3F400C6A1A5 /* LaunchScreen.storyboard */; };
+		E346F615ADC01933E685E8BE /* Pods_Texture____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D8F90BF8BA19E9ACB35AE0 /* Pods_Texture____.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3FBEF71E31DCB6E34A0BC0 /* Pods-Texture圆角处理.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture圆角处理.debug.xcconfig"; path = "Target Support Files/Pods-Texture圆角处理/Pods-Texture圆角处理.debug.xcconfig"; sourceTree = "<group>"; };
 		78765AC42422F3F300C6A1A5 /* Texture圆角处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texture圆角处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78765AC72422F3F300C6A1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78765AC92422F3F300C6A1A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		78765AD02422F3F400C6A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78765AD32422F3F400C6A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78765AD52422F3F400C6A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D8F90BF8BA19E9ACB35AE0 /* Pods_Texture____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Texture____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FA799A3497E7C97C55BC20 /* Pods-Texture圆角处理.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture圆角处理.release.xcconfig"; path = "Target Support Files/Pods-Texture圆角处理/Pods-Texture圆角处理.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E346F615ADC01933E685E8BE /* Pods_Texture____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5C043AA4D21EFB45B50246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D8F90BF8BA19E9ACB35AE0 /* Pods_Texture____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78765ABB2422F3F300C6A1A5 = {
 			isa = PBXGroup;
 			children = (
 				78765AC62422F3F300C6A1A5 /* Texture圆角处理 */,
 				78765AC52422F3F300C6A1A5 /* Products */,
+				CA52AC147EDE98D6F2849BD7 /* Pods */,
+				1A5C043AA4D21EFB45B50246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = "Texture圆角处理";
 			sourceTree = "<group>";
 		};
+		CA52AC147EDE98D6F2849BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F3FBEF71E31DCB6E34A0BC0 /* Pods-Texture圆角处理.debug.xcconfig */,
+				D2FA799A3497E7C97C55BC20 /* Pods-Texture圆角处理.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78765AD82422F3F400C6A1A5 /* Build configuration list for PBXNativeTarget "Texture圆角处理" */;
 			buildPhases = (
+				DAF8BB64C215C2143CE12399 /* [CP] Check Pods Manifest.lock */,
 				78765AC02422F3F300C6A1A5 /* Sources */,
 				78765AC12422F3F300C6A1A5 /* Frameworks */,
 				78765AC22422F3F300C6A1A5 /* Resources */,
+				2142735BE1599DA64D293BB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2142735BE1599DA64D293BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Texture圆角处理/Pods-Texture圆角处理-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Texture圆角处理/Pods-Texture圆角处理-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Texture圆角处理/Pods-Texture圆角处理-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF8BB64C215C2143CE12399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Texture圆角处理-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78765AC02422F3F300C6A1A5 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		78765AD92422F3F400C6A1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3FBEF71E31DCB6E34A0BC0 /* Pods-Texture圆角处理.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		78765ADA2422F3F400C6A1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA799A3497E7C97C55BC20 /* Pods-Texture圆角处理.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
