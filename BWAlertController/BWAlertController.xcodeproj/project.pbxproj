@@ -15,6 +15,8 @@
 		784FA2FD23D45616002D3CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784FA2FB23D45616002D3CD3 /* LaunchScreen.storyboard */; };
 		784FA30023D45616002D3CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784FA2FF23D45616002D3CD3 /* main.m */; };
 		784FA30923D45650002D3CD3 /* NSObject+YCAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 784FA30723D45650002D3CD3 /* NSObject+YCAlert.m */; };
+		78A3E878242DFEB300D809B3 /* UIViewController+YCRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3E877242DFEB300D809B3 /* UIViewController+YCRootVC.m */; };
+		78A3E87B242E006800D809B3 /* UIView+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A3E879242E006700D809B3 /* UIView+CurrentVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		784FA2FF23D45616002D3CD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		784FA30723D45650002D3CD3 /* NSObject+YCAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YCAlert.m"; sourceTree = "<group>"; };
 		784FA30823D45650002D3CD3 /* NSObject+YCAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YCAlert.h"; sourceTree = "<group>"; };
+		78A3E876242DFEB300D809B3 /* UIViewController+YCRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YCRootVC.h"; sourceTree = "<group>"; };
+		78A3E877242DFEB300D809B3 /* UIViewController+YCRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YCRootVC.m"; sourceTree = "<group>"; };
+		78A3E879242E006700D809B3 /* UIView+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CurrentVC.m"; sourceTree = "<group>"; };
+		78A3E87A242E006800D809B3 /* UIView+CurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CurrentVC.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 		784FA30623D45625002D3CD3 /* BWAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				78A3E876242DFEB300D809B3 /* UIViewController+YCRootVC.h */,
+				78A3E877242DFEB300D809B3 /* UIViewController+YCRootVC.m */,
 				784FA30823D45650002D3CD3 /* NSObject+YCAlert.h */,
 				784FA30723D45650002D3CD3 /* NSObject+YCAlert.m */,
+				78A3E87A242E006800D809B3 /* UIView+CurrentVC.h */,
+				78A3E879242E006700D809B3 /* UIView+CurrentVC.m */,
 			);
 			path = BWAlertController;
 			sourceTree = "<group>";
@@ -162,8 +172,10 @@
 				784FA30923D45650002D3CD3 /* NSObject+YCAlert.m in Sources */,
 				784FA2F523D45614002D3CD3 /* ViewController.m in Sources */,
 				784FA2EF23D45614002D3CD3 /* AppDelegate.m in Sources */,
+				78A3E878242DFEB300D809B3 /* UIViewController+YCRootVC.m in Sources */,
 				784FA30023D45616002D3CD3 /* main.m in Sources */,
 				784FA2F223D45614002D3CD3 /* SceneDelegate.m in Sources */,
+				78A3E87B242E006800D809B3 /* UIView+CurrentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

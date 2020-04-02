@@ -7,6 +7,7 @@
 //
 
 #import "NSObject+YCAlert.h"
+#import "UIViewController+YCRootVC.h"
 
 @implementation NSObject (YCAlert)
 
