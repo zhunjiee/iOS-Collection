@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.1.0)
+  - PLPlayerKit (3.4.3):
+    - PLPlayerKit/iphoneos (= 3.4.3)
+  - PLPlayerKit/iphoneos (3.4.3)
+
+DEPENDENCIES:
+  - Masonry
+  - PLPlayerKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - PLPlayerKit
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PLPlayerKit: a44734dc78c1f8f9fb22c537fa1916612fa46b06
+
+PODFILE CHECKSUM: b74e105ff0b530b762c1daa8e5007aea8fc8bf96
+
+COCOAPODS: 1.9.1

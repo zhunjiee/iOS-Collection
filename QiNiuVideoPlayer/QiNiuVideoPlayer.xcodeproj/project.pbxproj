@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C1D0CF688AA2FA6BBD8C16 /* Pods_QiNiuVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0576CE5D464DDE8250798BD6 /* Pods_QiNiuVideoPlayer.framework */; };
+		784D653324A0D71E00337234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D653224A0D71E00337234 /* AppDelegate.m */; };
+		784D653624A0D71E00337234 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D653524A0D71E00337234 /* SceneDelegate.m */; };
+		784D653924A0D71E00337234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D653824A0D71E00337234 /* ViewController.m */; };
+		784D653C24A0D71E00337234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784D653A24A0D71E00337234 /* Main.storyboard */; };
+		784D653E24A0D72100337234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784D653D24A0D72100337234 /* Assets.xcassets */; };
+		784D654124A0D72100337234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784D653F24A0D72100337234 /* LaunchScreen.storyboard */; };
+		784D654424A0D72100337234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D654324A0D72100337234 /* main.m */; };
+		784D654D24A0D78B00337234 /* BWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D654B24A0D78B00337234 /* BWVideoPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034F18328AD8FF732A97A25E /* Pods-QiNiuVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuVideoPlayer.release.xcconfig"; path = "Target Support Files/Pods-QiNiuVideoPlayer/Pods-QiNiuVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		0576CE5D464DDE8250798BD6 /* Pods_QiNiuVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiNiuVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784D652E24A0D71E00337234 /* QiNiuVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiNiuVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784D653124A0D71E00337234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		784D653224A0D71E00337234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		784D653424A0D71E00337234 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		784D653524A0D71E00337234 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		784D653724A0D71E00337234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		784D653824A0D71E00337234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		784D653B24A0D71E00337234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		784D653D24A0D72100337234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784D654024A0D72100337234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		784D654224A0D72100337234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784D654324A0D72100337234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		784D654B24A0D78B00337234 /* BWVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWVideoPlayer.m; sourceTree = "<group>"; };
+		784D654C24A0D78B00337234 /* BWVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWVideoPlayer.h; sourceTree = "<group>"; };
+		AEB5D145EDFA443B9133B5EB /* Pods-QiNiuVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuVideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-QiNiuVideoPlayer/Pods-QiNiuVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784D652B24A0D71E00337234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C1D0CF688AA2FA6BBD8C16 /* Pods_QiNiuVideoPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784D652524A0D71E00337234 = {
+			isa = PBXGroup;
+			children = (
+				784D653024A0D71E00337234 /* QiNiuVideoPlayer */,
+				784D652F24A0D71E00337234 /* Products */,
+				C91D656E34F5461BB56BBAFA /* Pods */,
+				95DE64634881ED2ED082106A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		784D652F24A0D71E00337234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784D652E24A0D71E00337234 /* QiNiuVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784D653024A0D71E00337234 /* QiNiuVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				784D654A24A0D78B00337234 /* BWVideoPlayer(视频播放器) */,
+				784D653124A0D71E00337234 /* AppDelegate.h */,
+				784D653224A0D71E00337234 /* AppDelegate.m */,
+				784D653424A0D71E00337234 /* SceneDelegate.h */,
+				784D653524A0D71E00337234 /* SceneDelegate.m */,
+				784D653724A0D71E00337234 /* ViewController.h */,
+				784D653824A0D71E00337234 /* ViewController.m */,
+				784D653A24A0D71E00337234 /* Main.storyboard */,
+				784D653D24A0D72100337234 /* Assets.xcassets */,
+				784D653F24A0D72100337234 /* LaunchScreen.storyboard */,
+				784D654224A0D72100337234 /* Info.plist */,
+				784D654324A0D72100337234 /* main.m */,
+			);
+			path = QiNiuVideoPlayer;
+			sourceTree = "<group>";
+		};
+		784D654A24A0D78B00337234 /* BWVideoPlayer(视频播放器) */ = {
+			isa = PBXGroup;
+			children = (
+				784D654C24A0D78B00337234 /* BWVideoPlayer.h */,
+				784D654B24A0D78B00337234 /* BWVideoPlayer.m */,
+			);
+			path = "BWVideoPlayer(视频播放器)";
+			sourceTree = "<group>";
+		};
+		95DE64634881ED2ED082106A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0576CE5D464DDE8250798BD6 /* Pods_QiNiuVideoPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91D656E34F5461BB56BBAFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5D145EDFA443B9133B5EB /* Pods-QiNiuVideoPlayer.debug.xcconfig */,
+				034F18328AD8FF732A97A25E /* Pods-QiNiuVideoPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784D652D24A0D71E00337234 /* QiNiuVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784D654724A0D72100337234 /* Build configuration list for PBXNativeTarget "QiNiuVideoPlayer" */;
+			buildPhases = (
+				8AA100F76F1AA56101AAC734 /* [CP] Check Pods Manifest.lock */,
+				784D652A24A0D71E00337234 /* Sources */,
+				784D652B24A0D71E00337234 /* Frameworks */,
+				784D652C24A0D71E00337234 /* Resources */,
+				4A128531A09AB7BA12D77D82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiNiuVideoPlayer;
+			productName = QiNiuVideoPlayer;
+			productReference = 784D652E24A0D71E00337234 /* QiNiuVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784D652624A0D71E00337234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = QTTX;
+				TargetAttributes = {
+					784D652D24A0D71E00337234 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 784D652924A0D71E00337234 /* Build configuration list for PBXProject "QiNiuVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784D652524A0D71E00337234;
+			productRefGroup = 784D652F24A0D71E00337234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784D652D24A0D71E00337234 /* QiNiuVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784D652C24A0D71E00337234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784D654124A0D72100337234 /* LaunchScreen.storyboard in Resources */,
+				784D653E24A0D72100337234 /* Assets.xcassets in Resources */,
+				784D653C24A0D71E00337234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A128531A09AB7BA12D77D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QiNiuVideoPlayer/Pods-QiNiuVideoPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QiNiuVideoPlayer/Pods-QiNiuVideoPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QiNiuVideoPlayer/Pods-QiNiuVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA100F76F1AA56101AAC734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiNiuVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784D652A24A0D71E00337234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784D653924A0D71E00337234 /* ViewController.m in Sources */,
+				784D653324A0D71E00337234 /* AppDelegate.m in Sources */,
+				784D654D24A0D78B00337234 /* BWVideoPlayer.m in Sources */,
+				784D654424A0D72100337234 /* main.m in Sources */,
+				784D653624A0D71E00337234 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		784D653A24A0D71E00337234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784D653B24A0D71E00337234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784D653F24A0D72100337234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784D654024A0D72100337234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		784D654524A0D72100337234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		784D654624A0D72100337234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784D654824A0D72100337234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB5D145EDFA443B9133B5EB /* Pods-QiNiuVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NKWLKTG4;
+				INFOPLIST_FILE = QiNiuVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qttx.QiNiuVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		784D654924A0D72100337234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 034F18328AD8FF732A97A25E /* Pods-QiNiuVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NKWLKTG4;
+				INFOPLIST_FILE = QiNiuVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qttx.QiNiuVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784D652924A0D71E00337234 /* Build configuration list for PBXProject "QiNiuVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784D654524A0D72100337234 /* Debug */,
+				784D654624A0D72100337234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784D654724A0D72100337234 /* Build configuration list for PBXNativeTarget "QiNiuVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784D654824A0D72100337234 /* Debug */,
+				784D654924A0D72100337234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784D652624A0D71E00337234 /* Project object */;
+}
