@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  PushNotificationDemo
+//
+//  Created by 侯歌 on 2020/10/14.
+//  Copyright © 2020 HouGe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constant.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+
+// 屏幕尺寸
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,25 @@
+PODS:
+  - JCore (2.1.4)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - JCore (= 2.1.4)
+  - JPush (= 3.2.6)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  JCore: d345c049141877eb61c33011455fdb5fcab1673f
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 9e424c4b399e3f1555aacd28a9eb6179b30c0a07
+
+COCOAPODS: 1.9.1
