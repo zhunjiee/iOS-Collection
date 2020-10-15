@@ -10,15 +10,12 @@
 #import <Masonry/Masonry.h>
 
 @interface BWVideoPlayer ()
-// 播放器
-@property (strong, nonatomic) PLPlayer *player;
-// 是否需要继续播放
-@property (assign, nonatomic) BOOL isNeedResume;
-// 定时器
-@property (nonatomic, strong) NSTimer *playTimer;
-
-@property (assign, nonatomic) BWVideoPlayerStatus status;
-@property (assign, nonatomic) BOOL isPlaying;
+@property (strong, nonatomic) PLPlayer *player;             // 播放器
+@property (assign, nonatomic) BOOL isNeedResume;            // 是否需要继续播放
+@property (nonatomic, strong) NSTimer *playTimer;           // 定时器
+@property (assign, nonatomic) BWVideoPlayerStatus status;   // 播放状态
+@property (assign, nonatomic) BOOL isPlaying;               // 是否正在播放
+@property (assign, nonatomic) float totalSeconds;           // 播放时长,用于计算播放进度
 @end
 
 
@@ -113,11 +110,17 @@
 }
 
 - (void)pausePlay {
-    [self.player pause];
+    if (self.player.isPlaying) {
+        [self.player pause];
+        [self pauseTimer];
+    }
 }
 
 - (void)resumePlay {
-    [self.player resume];
+    if (!self.player.isPlaying) {
+        [self.player resume];
+        [self resumeTimer];
+    }
 }
 
 - (void)resetPlay {
@@ -157,6 +160,21 @@
     [[NSRunLoop currentRunLoop] addTimer:self.playTimer forMode:NSRunLoopCommonModes];
 }
 
+/// 暂停定时器
+- (void)pauseTimer {
+    if (self.playTimer) {
+        [self.playTimer setFireDate:[NSDate distantFuture]];
+        self.totalSeconds = 0.0;
+    }
+}
+
+/// 继续定时器
+- (void)resumeTimer {
+    if (self.playTimer) {
+        [self.playTimer setFireDate:[NSDate distantPast]];
+    }
+}
+
 - (void)removeTimer {
     if (self.playTimer) {
         [self.playTimer invalidate];
@@ -165,12 +183,14 @@
 }
 
 - (void)timerAction {
-    float currentSeconds = CMTimeGetSeconds(self.player.currentTime);
-    float totalSeconds = CMTimeGetSeconds(self.player.totalDuration);
-    float progress = currentSeconds / totalSeconds;
-    if ([self.delegate respondsToSelector:@selector(player:currentTime:totalTime:progress:)]) {
-        [self.delegate player:self currentTime:currentSeconds totalTime:totalSeconds progress:progress];
+    if (self.totalSeconds != 0) {
+        float currentSeconds = CMTimeGetSeconds(self.player.currentTime);
+        float progress = currentSeconds / self.totalSeconds;
+        if ([self.delegate respondsToSelector:@selector(player:currentTime:totalTime:progress:)]) {
+            [self.delegate player:self currentTime:currentSeconds totalTime:self.totalSeconds progress:progress];
+        }
     }
+    
 //    if (CMTimeGetSeconds(self.player.totalDuration)) {
 //        int duration = currentSeconds + .5;
 //        int hour = duration / 3600;
@@ -198,6 +218,7 @@
         // 加载中
         case PLPlayerStatusReady:{
             [self playerStatusChanged:BWVideoPlayerStatusLoading];
+            self.totalSeconds = CMTimeGetSeconds(self.player.totalDuration);
         }
             break;
         case PLPlayerStatusOpen:{
