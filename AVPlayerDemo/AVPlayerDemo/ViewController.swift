@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    lazy var player: AVAudioPlayer = {
+        let path = Bundle.main.path(forResource: "test", ofType: "mp3")
+        let url = NSURL(fileURLWithPath: path ?? "")
+        let player = try! AVAudioPlayer(contentsOf: url as URL)
+        player.numberOfLoops = 0
+        player.volume = 1.0
+        player.prepareToPlay()
+        return player
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,6 +27,10 @@ class ViewController: UIViewController {
         view.addSubview(tools)
     }
 
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.player.play()
+    }
 }
 

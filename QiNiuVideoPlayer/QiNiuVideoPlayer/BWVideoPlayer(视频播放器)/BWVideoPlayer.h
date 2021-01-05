@@ -41,11 +41,9 @@ typedef NS_ENUM(NSUInteger, BWVideoPlayerStatus) {
 @interface BWVideoPlayer : NSObject <PLPlayerDelegate>
 
 @property (weak, nonatomic) id<BWVideoPlayerDelegate> delegate;
-// 播放状态
-@property (assign, nonatomic, readonly) BWVideoPlayerStatus status;
-// 是否正在播放
-@property (assign, nonatomic, readonly) BOOL isPlaying;
-
+@property (assign, nonatomic, readonly) BWVideoPlayerStatus status;     // 播放状态
+@property (assign, nonatomic, readonly) BOOL isPlaying;                 // 是否正在播放
+@property (nonatomic, assign, getter=isMute) BOOL mute;                 // 是否需要静音，默认值为NO
 
 /// 根据指定url在指定视图上播放视频
 /// @param playView 播放视图
