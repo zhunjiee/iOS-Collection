@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					8EF6BBBE1BE4FD030081E76E = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = E9NKWLKTG4;
 					};
 					8EF6BBD71BE4FD030081E76E = {
 						CreatedOnToolsVersion = 7.1;
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -417,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9NKWLKTG4;
 				INFOPLIST_FILE = Drawer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -429,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9NKWLKTG4;
 				INFOPLIST_FILE = Drawer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
